@@ -76,5 +76,5 @@ val:
       test_y_channel: true
 # path
 path:
-  pretrain_network_g: /opt/data/private/wyx/BasicSR-master/experiments/pretrain/setting1x3.pth
+  pretrain_network_g: pretrained_models/cdcn_setting1_x3.pth
   strict_load_g: true
