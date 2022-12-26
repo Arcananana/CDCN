@@ -116,7 +116,7 @@ def get_requirements(filename='requirements.txt'):
 
 
 if __name__ == '__main__':
-    cuda_ext = 'True'  # whether compile cuda ext
+    cuda_ext = 'False'  # whether compile cuda ext
     if cuda_ext == 'True':
         ext_modules = [
             make_cuda_ext(
