@@ -8,7 +8,7 @@ This repo is built on the basis of [DAN](https://github.com/greatlog/DAN) and [B
 + python packages: ``` pip install -r requirements.txt ```
 + bascisr: ``` python setup.py develop ```
 ## Quick Start
-Download the [pretrained models](https://pan.baidu.com/s/1J11LyvdSWsiYZfia1a6YVw?pwd=dssr) and put them into `checkpoints` folder. For different settings, you may still have to modify the `options/test_setting.yml`.
+Download the [pretrained models](https://pan.baidu.com/s/1K2Qi4ejzQPnLC7m5_8UlsQ?pwd=cdcn) and put them into `checkpoints` folder. For different settings, you may still have to modify the `options/test_setting.yml`.
 ```
 python inference.py -input_dir=<your_input_dir> -output_dir=<your_output_dir>
 ```
