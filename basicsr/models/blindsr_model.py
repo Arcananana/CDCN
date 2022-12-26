@@ -40,7 +40,7 @@ class BlindSRModel(BaseModel):
         if load_path is not None:
             param_key = self.opt['path'].get('param_key_g', 'params_ema')
             #ema! 
-            self.load_network(self.net_g, load_path, self.opt['path'].get('strict_load_g', True), 'params')
+            self.load_network(self.net_g, load_path, self.opt['path'].get('strict_load_g', True), 'params_ema')
 
         if self.is_train:
             self.init_training_settings()
