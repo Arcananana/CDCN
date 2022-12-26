@@ -5,8 +5,8 @@ This repo is built on the basis of [DAN](https://github.com/greatlog/DAN) and [B
 + python3
 + NVIDIA GPU + CUDA
 + pytorch >= 1.7.1
-+ python packages: pip install -r requirements.txt
-+ bascisr: python setup.py develop --no_cuda_ext
++ python packages: ``` pip install -r requirements.txt ```
++ bascisr: ``` python setup.py develop ```
 ## Quick Start
 Download the [pretrained models](https://pan.baidu.com/s/1J11LyvdSWsiYZfia1a6YVw?pwd=dssr) and put them into `checkpoints` folder. For different settings, you may still have to modify the `options/test_setting.yml`.
 ```
