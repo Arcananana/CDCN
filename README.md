@@ -21,7 +21,7 @@ The pretrained models can be downloaded [here](https://pan.baidu.com/s/1K2Qi4ejz
 
 Modify the dataset path and test settings in `options/test/test_setting.yml` and run the following command
 ```
-python basicsr/test.py -opt=options/test_setting.yml
+python basicsr/test.py -opt=options/test/test_setting.yml
 ```
 ## Citation
 If you find this repo useful, please consider citing our work:
