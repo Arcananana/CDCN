@@ -17,7 +17,7 @@ There are two blind settings mentioned in our paper. For setting1, we synthesize
 
 For setting2, we using the benchmark dataset [DIV2KRK](http://www.wisdom.weizmann.ac.il/~vision/kernelgan/DIV2KRK_public.zip) from [KernelGAN](https://github.com/sefibk/KernelGAN).
 
-The pretrained models can be downloaded [here](https://pan.baidu.com/s/1K2Qi4ejzQPnLC7m5_8UlsQ?pwd=cdcn) (setting1 x2 model is missed and we are re-training it).
+The pretrained models can be downloaded [here](https://pan.baidu.com/s/1K2Qi4ejzQPnLC7m5_8UlsQ?pwd=cdcn) (setting2 x2 model is missed and we are re-training it).
 
 Modify the dataset path and test settings in `options/test/test_setting.yml` and run the following command
 ```
