@@ -1,11 +1,12 @@
 # CDCN
 This is a pytorch implementation of [Bridging Component Learning with Degradation Modelling for Blind Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/9925720).
-This repo is built on the basis of [DAN](https://github.com/greatlog/DAN), thanks for their open-sourcing!
+This repo is built on the basis of [DAN](https://github.com/greatlog/DAN) and [BasicSR](https://github.com/XPixelGroup/BasicSR), thanks for their open-sourcing!
 ## Requirement
 + python3
 + NVIDIA GPU + CUDA
 + pytorch >= 1.7.1
-+ python packages: pip3 install numpy opencv-python lmdb pyyaml
++ python packages: pip install -r requirements.txt
++ bascisr: python setup.py develop --no_cuda_ext
 ## Quick Start
 Download the [pretrained models](https://pan.baidu.com/s/1J11LyvdSWsiYZfia1a6YVw?pwd=dssr) and put them into `checkpoints` folder. For different settings, you may still have to modify the `options/test_setting.yml`.
 ```
